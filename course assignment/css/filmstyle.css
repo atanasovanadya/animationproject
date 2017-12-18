@@ -1,0 +1,43 @@
+img:hover{
+    opacity:0.5;
+    border-style: solid;
+    border-color: darkslategray;
+    border-radius:10px;
+    cursor:pointer;
+    
+}
+
+.nav{
+    border:1px solid black;
+    height: 1000px;
+    width: 1500px;
+    background-color: black;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.carousel-control{
+  padding-top:10%;
+  width:100%;
+}
+
+.col-sm-3, .item, .row{
+    background-color: black;
+}
+#centralen{
+       display: table;
+  margin: 0 auto;
+}
+
+.oranjev{
+    color: white;
+    
+}
+
+form{
+    color: white;
+}
+
+.bileti{
+    padding-left: 30px;
+}

@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+         <link rel="stylesheet" type="text/css" href="css/slick.scss">
+         <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+         <link rel="javs" type="text/css" href="mystyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Coda:800" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+          <title>index</title>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </head>
+    
+    <body background="images/dimlights.jpg">
+
+        <h1 class="zaglavie">N O R T H K I N O</h1>
+        
+            
+            <div class="nav">
+                
+                <!-- NAVIGATION BAR -->
+                <ul class="bar">
+                  <li class="bar"><a class="active" href="index.html">HOME</a>
+                  </li>
+                  <li class="bar"><a href="filmselection.html">FILM SELECTION</a>
+                  </li>
+
+                </ul>
+                
+                
+                <!-- SLIDESHOW -->
+                
+                <div class="container">
+                  <h2 style="text-align: center" class="more-info">TRENDING NOW</h2>  
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                      <li data-target="#myCarousel" data-slide-to="3"></li>
+                      <li data-target="#myCarousel" data-slide-to="4"></li>
+                      <li data-target="#myCarousel" data-slide-to="5"></li>
+                      <li data-target="#myCarousel" data-slide-to="6"></li>
+                      <li data-target="#myCarousel" data-slide-to="7"></li>
+                      <li data-target="#myCarousel" data-slide-to="8"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                          <a data-toggle="modal" data-target="#showman">
+                        <img src="images/showman.jpg" alt="The Greatest Showman" style="width:100%;">
+                          </a>
+                      </div>
+
+                      <div class="item">
+                        <a data-toggle="modal" data-target="#ferdinand">
+                        <img src="images/ferdinand.jpg" alt="Ferdinand" style="width:100%;">
+                          </a>
+                      </div>
+
+                      <div class="item">
+                        <a data-toggle="modal" data-target="#jumanji">
+                        <img src="images/jumanji.jpg" alt="Jumanji" style="width:100%;">
+                          </a>
+                      </div>
+
+                      <div class="item">
+                        <a data-toggle="modal" data-target="#starwars">
+                        <img src="images/starwars.jpg" alt="Star Wars" style="width:100%;">
+                          </a>
+                      </div>
+
+                      <div class="item">
+                        <a data-toggle="modal" data-target="#coco">
+                        <img src="images/coco.jpg" alt="Coco" style="width:100%;">
+                          </a>
+                      </div>
+
+                      <div class="item">
+                        <a data-toggle="modal" data-target="#justiceleague">
+                        <img src="images/justiceleague.jpg" alt="Justice League" style="width:100%;">
+                          </a>
+                      </div>
+
+                      <div class="item">
+                        <a data-toggle="modal" data-target="#artist">
+                        <img src="images/thedisasterartist.jpg" alt="The Disaster Artist" style="width:100%;">
+                          </a>
+                      </div>
+
+                      <div class="item">
+                        <a data-toggle="modal" data-target="#ragnarok">
+                        <img src="images/ragnarok.jpg" alt="Thor Ragnarok" style="width:100%;">
+                          </a>
+                      </div>
+
+                      <div class="item">
+                          <a data-toggle="modal" data-target="#orientexpress">
+                        <img src="images/oriendexpress.jpg" alt="Murder on the Orient Express" style="width:100%;">
+                          </a>
+                      </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                
+                
+                
+                <!-- Modals -->
+                
+                <!-- STAR WARS -->
+                    <div class="modal fade" id="starwars" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="more-info" id="myModalLabel">About</h4>
+                          </div>
+                          <div class="modal-body">
+                            
+                              
+                              <div class="media">
+                                  <div class="media-left media-top">
+                                    <img src="images/starwarstn.jpg" class="media-object">
+                                  </div>
+                                  <div class="media-body">
+                                    <h3 class="more-info">Star Wars: Episode VIII - The Last Jedi</h3>
+                                    <p class="more-info">PG-13 | 2h 32min | Action, Adventure, Fantasy</p>
+                                    <p class="more-info">Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares to do battle with the First Order.</p>
+                                   <p class="more-info"> Director: Rian Johnson
+                                    Writers: Rian Johnson, George Lucas (based on characters created by)
+                                    Stars: Daisy Ridley, John Boyega, Mark Hamill </p>
+                                </div>
+                                </div>
+
+                              
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              <a data-toggle="modal" data-target="#book"><button type="button" class="btn btn-primary">Book</button></a>
+                          </div>
+                        </div><!-- /.modal-content -->
+                      </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+
+                
+                <!-- SHOWMAN -->
+                
+                <div class="modal fade" id="showman" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="more-info" id="myModalLabel">About</h4>
+                          </div>
+                          <div class="modal-body">
+                            
+                              
+                              <div class="media">
+                                  <div class="media-left media-top">
+                                    <img src="images/showmantn.jpg" class="media-object">
+                                  </div>
+                                  <div class="media-body">
+                                    <h3 class="more-info">The Greatest Showman</h3>
+                                    <p class="more-info">PG | 1h 45min | Biography, Drama, Musical </p>
+                                    <p class="more-info">Inspired by the imagination of P.T. Barnum, The Greatest Showman is an original musical that celebrates the birth of show business and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation.</p>
+                                   <p class="more-info">Director: Michael Gracey
+                                        Writers: Jenny Bicks (screenplay by), Bill Condon (screenplay by) | 1 more credit »
+                                        Stars: Hugh Jackman, Michelle Williams, Zac Efron</p>
+                                </div>
+                                </div>
+
+                              
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              <a data-toggle="modal" data-target="#book"><button type="button" class="btn btn-primary">Book</button></a>
+                          </div>
+                        </div><!-- /.modal-content -->
+                      </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                
+                
+                
+                <!-- Jumanji -->
+                
+                <div class="modal fade" id="jumanji" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="more-info" id="myModalLabel">About</h4>
+                          </div>
+                          <div class="modal-body">
+                            
+                              
+                              <div class="media">
+                                  <div class="media-left media-top">
+                                    <img src="images/jumanjitn.jpg" class="media-object">
+                                  </div>
+                                  <div class="media-body">
+                                    <h3 class="more-info">Jumanji: Welcome to the Jungle</h3>
+                                    <p class="more-info">PG-13 | 1h 59min | Action, Adventure, Comedy </p>
+                                    <p class="more-info">Four teenagers discover an old video game console and are literally drawn into the game's jungle setting becoming the adult avatars they chose.</p>
+                                   <p class="more-info">Director: Jake Kasdan
+                                        Writers: Chris McKenna (screenplay by), Erik Sommers (screenplay by) | 4 more credits »
+                                        Stars: Dwayne Johnson, Karen Gillan, Kevin Hart </p>
+                                </div>
+                                </div>
+
+                              
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              <a data-toggle="modal" data-target="#book"><button type="button" class="btn btn-primary">Book</button></a>
+                          </div>
+                        </div><!-- /.modal-content -->
+                      </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                
+                
+                
+                                <!-- Ferdinand -->
+                
+                <div class="modal fade" id="ferdinand" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="more-info" id="myModalLabel">About</h4>
+                          </div>
+                          <div class="modal-body">
+                            
+                              
+                              <div class="media">
+                                  <div class="media-left media-top">
+                                    <img src="images/ferdinandtn.jpg" class="media-object">
+                                  </div>
+                                  <div class="media-body">
+                                    <h3 class="more-info">Ferdinand</h3>
+                                    <p class="more-info">PG | 1h 46min | Animation, Adventure, Comedy </p>
+                                    <p class="more-info">After Ferdinand, a bull with a big heart, is mistaken for a dangerous beast, he is captured and torn from his home. Determined to return to his family, he rallies a misfit team on the ultimate adventure.</p>
+                                   <p class="more-info">Director: Carlos Saldanha
+                                    Writers: Munro Leaf (based on the book by), Robert Lawson (based on the book by) | 6 more credits »
+                                    Stars: John Cena, Kate McKinnon, Bobby Cannavale </p>
+                                </div>
+                                </div>
+
+                              
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              <a data-toggle="modal" data-target="#book"><button type="button" class="btn btn-primary">Book</button></a>
+                          </div>
+                        </div><!-- /.modal-content -->
+                      </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                
+                
+                
+                
+                 <!-- Coco -->
+                
+                <div class="modal fade" id="coco" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="more-info" id="myModalLabel">About</h4>
+                          </div>
+                          <div class="modal-body">
+                            
+                              
+                              <div class="media">
+                                  <div class="media-left media-top">
+                                    <img src="images/cocotn.jpg" class="media-object">
+                                  </div>
+                                  <div class="media-body">
+                                    <h3 class="more-info">Coco</h3>
+                                    <p class="more-info">PG | 1h 45min | Animation, Adventure, Comedy </p>
+                                    <p class="more-info">Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.</p>
+                                   <p class="more-info">Directors: Lee Unkrich, Adrian Molina (co-director)
+                                    Writers: Lee Unkrich (original story by), Jason Katz (original story by) | 4 more credits »
+                                    Stars: Anthony Gonzalez, Gael García Bernal, Benjamin Bratt </p>
+                                </div>
+                                </div>
+
+                              
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              <a data-toggle="modal" data-target="#book"><button type="button" class="btn btn-primary">Book</button></a>
+                          </div>
+                        </div><!-- /.modal-content -->
+                      </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                
+                
+                
+                
+                 <!-- Justice League -->
+                
+                <div class="modal fade" id="justiceleague" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="more-info" id="myModalLabel">About</h4>
+                          </div>
+                          <div class="modal-body">
+                            
+                              
+                              <div class="media">
+                                  <div class="media-left media-top">
+                                    <img src="images/justiceleaguetn.jpg" class="media-object">
+                                  </div>
+                                  <div class="media-body">
+                                    <h3 class="more-info">Justice League</h3>
+                                    <p class="more-info">K-12 | 2h | Action, Adventure, Fantasy </p>
+                                    <p class="more-info">Fueled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne enlists the help of his newfound ally, Diana Prince, to face an even greater enemy.</p>
+                                   <p class="more-info">Director: Zack Snyder
+                                        Writers: Chris Terrio (screenplay by), Joss Whedon (screenplay by) | 9 more credits »
+                                        Stars: Ben Affleck, Gal Gadot, Jason Momoa </p>
+                                </div>
+                                </div>
+
+                              
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              <a data-toggle="modal" data-target="#book"><button type="button" class="btn btn-primary">Book</button></a>
+                          </div>
+                        </div><!-- /.modal-content -->
+                      </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                
+                
+                
+                 <!-- The Disaster Artist -->
+                
+                <div class="modal fade" id="artist" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="more-info" id="myModalLabel">About</h4>
+                          </div>
+                          <div class="modal-body">
+                            
+                              
+                              <div class="media">
+                                  <div class="media-left media-top">
+                                    <img src="images/thedisasterartisttn.jpg" class="media-object">
+                                  </div>
+                                  <div class="media-body">
+                                    <h3 class="more-info">The Disaster Artist</h3>
+                                    <p class="more-info">R | 1h 44min | Biography, Comedy, Drama</p>
+                                    <p class="more-info">When Greg Sestero, an aspiring film actor, meets the weird and mysterious Tommy Wiseau in an acting class, they form a unique friendship and travel to Hollywood to make their dreams come true.</p>
+                                   <p class="more-info">Director: James Franco
+                                        Writers: Scott Neustadter (screenplay by), Michael H. Weber (screenplay by) | 2 more credits »
+                                        Stars: James Franco, Dave Franco, Ari Graynor  </p>
+                                </div>
+                                </div>
+
+                              
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              <a data-toggle="modal" data-target="#book"><button type="button" class="btn btn-primary">Book</button></a>
+                          </div>
+                        </div><!-- /.modal-content -->
+                      </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                
+                
+                
+                <!-- Ragnarok -->
+                
+                <div class="modal fade" id="ragnarok" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="more-info" id="myModalLabel">About</h4>
+                          </div>
+                          <div class="modal-body">
+                            
+                              
+                              <div class="media">
+                                  <div class="media-left media-top">
+                                    <img src="images/ragnaroktn.jpg" class="media-object">
+                                  </div>
+                                  <div class="media-body">
+                                    <h3 class="more-info">Thor: Ragnarok</h3>
+                                    <p class="more-info">PG-13 | 2h 10min | Action, Adventure, Comedy</p>
+                                    <p class="more-info">Imprisoned, the almighty Thor finds himself in a lethal gladiatorial contest against the Hulk, his former ally. Thor must fight for survival and race against time to prevent the all-powerful Hela from destroying his home and the Asgardian civilization.</p>
+                                   <p class="more-info">Director: Taika Waititi
+                                            Writers: Eric Pearson, Craig Kyle | 4 more credits »
+                                            Stars: Chris Hemsworth, Tom Hiddleston, Cate Blanchett  </p>
+                                </div>
+                                </div>
+
+                              
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              <a data-toggle="modal" data-target="#book"><button type="button" class="btn btn-primary">Book</button></a>
+                          </div>
+                        </div><!-- /.modal-content -->
+                      </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                
+                
+                 <!-- Murder on the Orient Express-->
+                
+                <div class="modal fade" id="orientexpress" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="more-info" id="myModalLabel">About</h4>
+                          </div>
+                          <div class="modal-body">
+                            
+                              
+                              <div class="media">
+                                  <div class="media-left media-top">
+                                    <img src="images/oriendexpresstn.jpg" class="media-object">
+                                  </div>
+                                  <div class="media-body">
+                                    <h3 class="more-info">Murder on the Orient Express</h3>
+                                    <p class="more-info">K-12 | 1h 54min | Crime, Drama, Mystery</p>
+                                    <p class="more-info">When a murder occurs on the train he's travelling on, celebrated detective Hercule Poirot is recruited to solve the case.</p>
+                                   <p class="more-info">Director: Kenneth Branagh
+                                        Writers: Michael Green (screenplay by), Agatha Christie (based upon the novel by)
+                                        Stars: Kenneth Branagh, Penélope Cruz, Willem Dafoe   </p>
+                                </div>
+                                </div>
+
+                              
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                             <a data-toggle="modal" data-target="#book"><button type="button" class="btn btn-primary">Book</button></a>
+                          </div>
+                        </div><!-- /.modal-content -->
+                      </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                
+                
+                
+                
+                
+                
+                <!-- BOOKING SYSTEM-->
+                
+                <div class="modal fade" id="book" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="more-info" id="myModalLabel">Booking</h4>
+                          </div>
+                          <div class="modal-body">
+                            
+                              <h2 class="more-info">Select cinema:</h2>
+                              <select>
+                                  <option value="Helsinki">Helsinki</option>
+                                  <option value="Turku">Turku</option>
+                                  <option value="Tampere">Tampere</option>
+                                  <option value="Oulu">Oulu</option>
+                                  <option value="Rovaniemi">Rovaniemi</option>
+                                </select>
+                                <hr>
+                            
+                              <h2 class="more-info">Select room:</h2>
+                              <select>
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                              </select>
+                              <hr>
+                              
+                              <h2 class="more-info">List number of seats:</h2>
+                              <input>
+                              <hr>
+                              
+                              <h2 class="more-info">Available seats:</h2>
+                              <select>
+                                  <option value="1">9</option>
+                                  <option value="2">16</option>
+                                  <option value="3">26</option>
+                              </select>
+                              
+                              <select>
+                                  <option value="1">9</option>
+                                  <option value="2">16</option>
+                                  <option value="3">26</option>
+                              </select>
+                              
+                              <select>
+                                  <option value="1">9</option>
+                                  <option value="2">16</option>
+                                  <option value="3">26</option>
+                              </select>
+                              <hr>
+                              
+                              <h2 class="more-info">Available screaning times:</h2>
+                              <select>
+                                  <option value="1">11:50</option>
+                                  <option value="2">20:30</option>
+                                  <option value="3">22:00</option>
+                              </select>
+                              <hr>
+                              
+                              
+                              
+                              
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              <a data-toggle="modal" data-target="#thankyou"><button type="button" class="btn btn-primary">Book</button></a>
+                          </div>
+                        </div><!-- /.modal-content -->
+                      </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                
+                
+        
+        
+        
+        <div class="modal fade" id="book" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="more-info" id="myModalLabel">Booking</h4>
+                          </div>
+                          <div class="modal-body">
+                            
+                              <h2 class="more-info">Select cinema:</h2>
+                              <select>
+                                  <option value="Helsinki">Helsinki</option>
+                                  <option value="Turku">Turku</option>
+                                  <option value="Tampere">Tampere</option>
+                                  <option value="Oulu">Oulu</option>
+                                  <option value="Rovaniemi">Rovaniemi</option>
+                                </select>
+                                <hr>
+                            
+                              <h2 class="more-info">Select room:</h2>
+                              <select>
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                              </select>
+                              <hr>
+                              
+                              <h2 class="more-info">List number of seats:</h2>
+                              <input>
+                              <hr>
+                              
+                              <h2 class="more-info">Available seats:</h2>
+                              <select>
+                                  <option value="1">9</option>
+                                  <option value="2">16</option>
+                                  <option value="3">26</option>
+                              </select>
+                              
+                              <select>
+                                  <option value="1">9</option>
+                                  <option value="2">16</option>
+                                  <option value="3">26</option>
+                              </select>
+                              
+                              <select>
+                                  <option value="1">9</option>
+                                  <option value="2">16</option>
+                                  <option value="3">26</option>
+                              </select>
+                              <hr>
+                              
+                              <h2 class="more-info">Available screaning times:</h2>
+                              <select>
+                                  <option value="1">11:50</option>
+                                  <option value="2">20:30</option>
+                                  <option value="3">22:00</option>
+                              </select>
+                              <hr>
+                              
+                              
+                              
+                              
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              <a data-toggle="modal" data-target="#thankyou"><button type="button" class="btn btn-primary">Book</button></a>
+                          </div>
+                        </div><!-- /.modal-content -->
+                      </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                              
+
+                
+                
+              </div>
+            
+            
+           
+        
+        
+    
+    </body>
+</html>
